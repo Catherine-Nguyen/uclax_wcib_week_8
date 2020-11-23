@@ -1,2 +1,293 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 400;
+
+  h1 {
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -4px;
+    padding-top: 8rem; }
+  h2 {
+    font-weight: 700;
+    font-size: 44px;
+    padding-right: 1rem;
+    padding-left: 1rem; }
+  h3 {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px; }
+  h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 7rem;
+    padding-right: 10rem; }
+  h5 {
+    font-weight: 200;
+    color: #747474;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+  h6 {
+    font-weight: 200;
+    color: #747474;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+  }
+  button {
+    font-size: 10px;
+    font-weight: 700; }
+}
+
+.header-hero {
+  background: #23b4f5 url("../images/bar.png") repeat-x bottom;
+  color: white;
+  padding-top: 3rem; }
+
+  .logo {
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: white; }
+
+  ul {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 0;
+    li {
+      display: inline;
+      padding-left: 20px;
+    }}
+
+.nav-links {
+  color: white;
+  padding-bottom: 5px;
+
+  .nav-links:hover {
+    text-decoration: none;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+    border-bottom-style: solid; }}
+
+.hero {
+    padding-bottom: 1rem;
+    padding-top: 30px;
+
+  .hero-title {
+    padding-left: 0% !important;
+  }
+
+  .hero-words {
+    padding-left: 20%; }
+
+  .button-download {
+    margin-left: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 20px;
+    letter-spacing: 1px; }
+
+  .button-download:hover {
+    background-color: #268df5;
+    color: white;
+    border-color: #268df5;
+  }
+
+  .button-learn-more {
+    margin-left: 1rem;
+    background-color: transparent;
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 1px;
+    border: none; }
+
+  .button-learn-more:hover {
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: #268df5;
+    color: #268df5;
+    border-bottom-width: 3px; }
+
+  .hero-bottom {
+    color: #222222;
+    font-size: 13px;
+    margin-top: 5.5rem; }
+
+  .UI {
+    margin-top: 0.5rem;}
+
+  .button-new {
+    margin-top: 0.5rem;
+    background-color: #268df5;
+    font-size: 9px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 5px 8px rgba(38, 141, 245, 0.5);
+    letter-spacing: 1px; }
+
+  .button-new:hover {
+    background-color: white;
+    color: #268df5;
+    border-color: white;}
+
+.new-big-thing {
+    background-color: whitesmoke;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 13px;
+
+  .content-text {
+    padding-left: 9%;
+    padding-right: 9%; }
+    .content-text p {
+      margin-bottom: 5rem; }
+}
+
+.price {
+  color: white;
+  background-color: #222222;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+    .price-header {
+      font-size: 12px;
+      font-weight: 400;}
+    .rate {
+      font-size: 48px; }
+    .list {
+      list-style: none;
+      padding-left: 0;
+      font-size: 14px;
+      padding-bottom: 0rem;
+    }
+    .price-container {
+      padding-left: 10%;
+      padding-right: 10%; }
+    .price-box {
+      background-color: white;
+      border-radius: 5px;
+      color: #222222;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 3rem;
+      padding-bottom: 3rem; }
+    .price-box-alt {
+      background-color: #268df5;
+      color: white; }
+    .price-button {
+      margin-left: 1rem;
+      color: #222222;
+      border: 2px solid #268df5;
+      background-color: transparent;
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 20px;
+      letter-spacing: 1px; }
+    .price-button-alt {
+      margin-left: 1rem;
+      color: #222222;
+      border: 2px solid white;
+      background-color: transparent;
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 20px;
+      letter-spacing: 1px; }
+    .price-button:hover {
+      color: white;
+      background-color: #268df5;
+      border-color: white; }
+    .price-button-alt:hover {
+      color: white;
+      background-color: transparent;
+      border-color: white; }
+}
+.subscribe {
+    background-image: url("../images/cliff.png");
+    background-size: cover;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    .text {
+      color: white;
+    }
+    .user-email {
+      border: none;
+      background-color: rgba(146, 146, 146, 0.33);
+      border-radius: 5px;
+      padding: 0.8rem;
+      font-size: 11px;
+      width: 350px; }
+    .email-button {
+      background-color: white;
+      border: none;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 700;
+      box-shadow: 10px 5px 8px #222222;
+      letter-spacing: 1px;
+      margin-left: -20px; }
+    .email-button:hover {
+      background-color: #268df5;
+      color: white;}
+    .form-inline {
+      padding-left: 30px;
+      padding-right: 30px; }
+
+    ::placeholder {
+      color: white; }
+
+    input[type=email] {
+      color: white; }
+}
+
+footer {
+  padding-top: 3rem;
+  background-image: url("../images/background.png");
+  .footer-nav {
+    margin-bottom: 5rem; }
+    .footer-nav div ul {
+      list-style: none; }
+      .footer-nav div ul li {
+        font-weight: 700;
+        font-size: 11px;
+        display: inline;
+        padding-left: 1rem;
+        padding-right: 1rem; }
+  .footer-nav-links {
+    color: #222222; }
+  .footer-nav-links:hover {
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: #268df5;
+    color: #268df5;
+    border-bottom-width: 3px; }
+  .footer-description {
+    color: #747474;
+    font-size: 11px;
+    padding-top: 75px;}
+  .social-media {
+    padding-left: 1rem;
+    width: 15px;
+    height: 15px;}
 }
