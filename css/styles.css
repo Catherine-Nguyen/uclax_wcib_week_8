@@ -63,7 +63,8 @@ body {
   letter-spacing: 0;
   font-size: 16px;
   font-weight: 700;
-  color: white; }
+  color: white;
+  padding-left: 0.8rem;}
 
 ul {
   list-style: none;
@@ -86,9 +87,9 @@ ul {
 .hero {
   padding-bottom: 1rem;
   padding-top: 30px; }
-  @media (max-width: 768px) {
-    .hero {
-    padding-bottom: 0; } }
+@media (max-width: 768px) {
+  .hero {
+  padding-bottom: 0; } }
   .hero .hero-title {
     padding-left: 0% !important; }
   .hero .hero-words {
@@ -192,7 +193,7 @@ ul {
     color: white; }
     @media (max-width: 767px) {
     .pricing-box {
-      margin-bottom: 3rem; } }  
+      margin-bottom: 3rem; } }
   .price .price-button {
     margin-left: 1rem;
     color: #222222;
