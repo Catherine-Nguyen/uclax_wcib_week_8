@@ -14,6 +14,12 @@ body {
     font-size: 44px;
     padding-right: 1rem;
     padding-left: 1rem; }
+  @media (max-width: 768px) {
+    body h1 {
+      padding-top: 1rem;
+      font-size: 40px; }
+    body h2 {
+      font-size: 30px !important; } }
   h3 {
     font-weight: 700;
     font-size: 13px;
@@ -30,6 +36,13 @@ body {
     padding-right: 22%;
     padding-top: 1rem;
     padding-bottom: 3rem; }
+  @media (max-width: 768px) {
+      body h4 {
+        padding-right: 0;
+        margin-bottom: 1rem;
+        font-size: 16px; }
+      body h5 {
+        font-size: 14px; } }
   h6 {
     font-weight: 200;
     color: #747474;
@@ -78,6 +91,9 @@ body {
 .hero {
     padding-bottom: 1rem;
     padding-top: 30px;
+  @media (max-width: 768px) {
+    .hero {
+    padding-bottom: 0; } }
 
   .hero-title {
     padding-left: 0% !important;
@@ -119,10 +135,17 @@ body {
     color: #268df5;
     border-bottom-width: 3px; }
 
+    @media (max-width: 768px) {
+      .button-learn-more {
+        margin-top: 1rem; } }
+
   .hero-bottom {
     color: #222222;
     font-size: 13px;
     margin-top: 5.5rem; }
+    @media (max-width: 540px) {
+    .hero-bottom {
+      margin-top: 2rem; } }
 
   .UI {
     margin-top: 0.5rem;}
@@ -189,6 +212,9 @@ body {
     .price-box-alt {
       background-color: #268df5;
       color: white; }
+      @media (max-width: 767px) {
+    .pricing-box {
+      margin-bottom: 3rem; } }  
     .price-button {
       margin-left: 1rem;
       color: #222222;
