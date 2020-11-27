@@ -99,6 +99,10 @@ body {
   .hero-title {
     padding-left: 0% !important;
   }
+  @media (max-width: 768px) {
+    .heor-title {
+      padding-top: 1rem;
+      font-size: 40px; }
 
   .hero-words {
     padding-left: 20%; }
