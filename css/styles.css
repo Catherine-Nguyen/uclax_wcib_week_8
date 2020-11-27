@@ -224,7 +224,9 @@ ul {
     color: white;
     background-color: transparent;
     border-color: white; }
-
+@media (max-width: 767px) {
+  .price .price-box {
+        margin-bottom: 3rem; } }
 .subscribe {
   background-image: url("../images/cliff.png");
   background-size: cover;
@@ -253,6 +255,7 @@ ul {
     box-shadow: 10px 5px 8px #222222;
     letter-spacing: 1px;
     margin-left: -20px; }
+
   .subscribe .email-button:hover {
     background-color: #268df5;
     color: white;}
@@ -277,6 +280,9 @@ footer {
     display: inline;
     padding-left: 1rem;
     padding-right: 1rem; }
+  @media (max-width: 768px) {
+      .footer .footer-nav {
+          margin-bottom: 1rem; } }
   footer .footer-nav-links {
     color: #222222; }
   footer .footer-nav-links:hover {
@@ -293,3 +299,13 @@ footer {
     padding-left: 1rem;
     width: 15px;
     height: 15px; }
+
+    @media (max-width: 768px) {
+      .bottom-nav-center {
+        text-align: center !important;
+        padding-bottom: 1rem; } }
+
+    @media (max-width: 575px) {
+      .bottom-info-center {
+        text-align: center !important;
+        padding-bottom: 1rem; } }

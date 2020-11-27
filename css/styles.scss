@@ -246,6 +246,11 @@ body {
       background-color: transparent;
       border-color: white; }
 }
+
+@media (max-width: 767px) {
+  .price-box {
+    margin-bottom: 3rem; } }
+
 .subscribe {
     background-image: url("../images/cliff.png");
     background-size: cover;
@@ -302,6 +307,9 @@ footer {
         display: inline;
         padding-left: 1rem;
         padding-right: 1rem; }
+  @media (max-width: 768px) {
+      .footer-nav {
+        margin-bottom: 1rem; } }
   .footer-nav-links {
     color: #222222; }
   .footer-nav-links:hover {
@@ -319,3 +327,13 @@ footer {
     width: 15px;
     height: 15px;}
 }
+
+@media (max-width: 768px) {
+  .bottom-nav-center {
+    text-align: center !important;
+    padding-bottom: 1rem; } }
+
+@media (max-width: 575px) {
+  .bottom-info-center {
+    text-align: center !important;
+    padding-bottom: 1rem; } }
